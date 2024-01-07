@@ -6,6 +6,12 @@
   font-family: Lato;
 }
 
+.banner {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
 p {
   color: rgba(39, 39, 39, 0.60);
   font-size: 18px;
@@ -40,9 +46,6 @@ header {
 
 .banner-container {
   display: flex;
-  width: 75%;
-  max-width: 1920px;
-  margin: auto;
   justify-content: space-between;
 }
 
@@ -77,9 +80,6 @@ main {
 /* featured flower section */
 
 .featured-flowers {
-  width: 75%;
-  max-width: 1440px;
-  margin: 0px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,8 +130,91 @@ main {
 .flower h4 {
   color: #272727;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
+}
+
+/* services section */
+
+.services {
+  margin: 128px 0px;
+}
+
+.services > div {
+  background-color: #2727270D;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.service {
+  padding: 86px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service h5 {
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+/* Hot deal section */
+
+.hot-deal {
+  background-color: #E554730D;
+}
+
+.deal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deal div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  max-width: 594px;
+}
+
+.deal div p{
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.deal img {
+  padding: 100px 0px;
+}
+
+/* Instagram section */
+
+.instagram {
+  margin: 128px 0px;
+}
+
+.instagram div p {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.flower-images {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flower-images img {
+  width: 24%;
+  max-width: 394px;
 }
