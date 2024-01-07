@@ -186,6 +186,10 @@ main {
   max-width: 594px;
 }
 
+.section-title span {
+  color: #E55473;
+}
+
 .deal div p{
   text-align: center;
   margin-top: 24px;
@@ -217,4 +221,85 @@ main {
 .flower-images img {
   width: 24%;
   max-width: 394px;
+}
+
+/* latest deals section */
+
+.latest-deals div {
+  background-image: url('./Flower Asset/Rectangle 9.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  /* background-position: center; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 68px 0px;
+}
+
+.latest-deals div p {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.latest-deals div label {
+  display: flex;
+  width: 60%;
+}
+
+.latest-deals div input {
+  width: 100%;
+  max-width: 700px;
+  margin-right: 16px;
+  color: #27272799;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 22px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* footer section */
+
+footer {
+  background-color: #111010;
+  margin-top: 128px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px 0px;
+}
+
+.copyright h2 {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.copyright h2 span {
+  color: #E55473;
+}
+
+.copyright p {
+  color: #FFFFFFE5;
+  width: 43%;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.copyright small {
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
